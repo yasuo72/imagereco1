@@ -1,0 +1,2113 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up?",
+                "Greetings!"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?",
+                "Hello! How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Catch you later",
+                "Take care"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Goodbye! Have a great day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "Much appreciated"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're welcome!"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?",
+                "What products are available?",
+                "Can you show me your products?"
+            ],
+            "responses": [
+                "We sell coffee, tea, and pastries",
+                "We have a variety of coffee, tea, and baked goods",
+                "Our menu includes coffee, tea, and delicious pastries"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?",
+                "What payment methods do you accept?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard, and Paypal",
+                "We accept most major credit cards, and Paypal",
+                "You can pay with credit cards or Paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?",
+                "What are the delivery times?",
+                "How fast is shipping?"
+            ],
+            "responses": [
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days",
+                "Your order will arrive in 2-4 days"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?",
+                "Make me laugh"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison.",
+                "Why don\u00e2\u20ac\u2122t skeletons fight each other? They don\u00e2\u20ac\u2122t have the guts."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What's your name?",
+                "Who are you?",
+                "What can I call you?"
+            ],
+            "responses": [
+                "I am your friendly chatbot!",
+                "You can call me Chatbot.",
+                "I'm Chatbot, your assistant."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are your hours?",
+                "When are you open?",
+                "What are your opening hours?"
+            ],
+            "responses": [
+                "We are open 24/7!",
+                "Our services are available at any time of day."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I need help",
+                "Can you help me?",
+                "Assist me please",
+                "I need assistance"
+            ],
+            "responses": [
+                "Sure, I'm here to help. What do you need assistance with?",
+                "Of course! How can I assist you?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "How can I pay?",
+                "What payment methods are accepted?",
+                "Can I pay by credit card?"
+            ],
+            "responses": [
+                "We accept all major credit cards, PayPal, and bank transfers.",
+                "You can pay using credit cards, PayPal, or bank transfers."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "indian flag",
+            "patterns": [
+                "indian flag"
+            ],
+            "responses": [
+                "The Indian flag consists of three colors: saffron (orange), white, and green, with a blue chakra in the center. The colors represent courage and sacrifice (saffron), purity and truth (white), and faith and chivalry (green)."
+            ]
+        },
+        {
+            "tag": "national  Animal",
+            "patterns": [
+                "Bengal tiger"
+            ],
+            "responses": [
+                "The national animal of India is the Bengal tiger, and its colors are typically orange and black stripes with white underparts. The distinctive orange and black stripes serve as camouflage in the wild, helping the tiger to hunt and protect itself."
+            ]
+        },
+        {
+            "tag": "states",
+            "patterns": [
+                "states"
+            ],
+            "responses": [
+                "There are 28 states and 8 union territories in India. These states and union territories are the administrative divisions that make up the country, each with its own government and administration."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "jokes"
+            ],
+            "responses": [
+                "Why did the brother bring a ladder to his sister's birthday party? Because he heard the drinks were on the house. The sister was not amused, but the brother thought it was a step in the right direction. It was a sibling rivalry that reached new heights."
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "library"
+            ],
+            "responses": [
+                "A library is a collection of books, journals, and other resources that are organized and maintained for use by people, often in a public or institutional setting. Libraries can be physical, with shelves of printed materials, or digital, with online access to e-books, articles, and other digital content."
+            ]
+        },
+        {
+            "tag": "electricity",
+            "patterns": [
+                "voltage"
+            ],
+            "responses": [
+                "Voltage, also known as electric potential difference, is the measure of the force that drives electric current through a circuit, measured in volts (V). It is the pressure that pushes electric charge through a conductor, such as a wire, and is a fundamental concept in understanding electricity and electronics."
+            ]
+        },
+        {
+            "tag": "phone",
+            "patterns": [
+                "iqoo"
+            ],
+            "responses": [
+                "The latest model of iQOO is the iQOO 12, which is available in various variants such as the iQOO 12 Pro. Additionally, there are other upcoming models like the iQOO Z9 Turbo and iQOO Z9 Pro."
+            ]
+        },
+        {
+            "tag": "laptop",
+            "patterns": [
+                "my hp laptop isn't working properly it's having charging isuue what can i do"
+            ],
+            "responses": [
+                "Try checking the power cord and adapter for any damage or issues, and also ensure the charging port on your laptop is clean and free of debris. If the issue persists, you may want to try resetting the power management settings or updating your laptop's BIOS to resolve the charging issue."
+            ]
+        },
+        {
+            "tag": "phone",
+            "patterns": [
+                "my phone is heating alot my hp laptop isn't working properly it's having charging isuue what can i do"
+            ],
+            "responses": [
+                "For your phone heating issue, try closing unused apps, reducing screen brightness, and avoiding overcharging. For your HP laptop's charging issue, check the power cord and adapter for damage and ensure the charging port is clean, and consider resetting power management settings or updating the BIOS if needed."
+            ]
+        },
+        {
+            "tag": "bags",
+            "patterns": [
+                "which bags should i use for my laptop explain in 2 lines"
+            ],
+            "responses": [
+                "For your laptop, consider using a padded laptop sleeve or backpack with a dedicated laptop compartment to provide protection and cushioning. Look for bags made from durable materials like nylon or polyester, with features like water resistance and multiple pockets for organization."
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "A school is an institution for education, where students learn various subjects, develop skills, and engage in social activities."
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                "best place to visit in summer"
+            ],
+            "responses": [
+                "Some popular summer vacation spots in the US include national parks like Glacier National Park, Zion National Park, and Acadia National Park, as well as coastal cities and islands. You can also consider destinations like Washington state, Jackson Hole, and the Maldives for a relaxing summer getaway"
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                " best place to visit in winter "
+            ],
+            "responses": [
+                "Some popular winter vacation spots include destinations like Iceland, Scandinavia, and the Rocky Mountains for a snowy getaway, while warmer spots like Hawaii, Puerto Rico, and the Sun Belt region offer a cozy escape from the cold. You can also consider visiting cities like New York City, Chicago, and San Francisco for a festive winter atmosphere"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are your opening hours?",
+                "When are you open?",
+                "What time do you open?",
+                "What time do you close?"
+            ],
+            "responses": [
+                "We are open from 8 AM to 8 PM, Monday to Friday.",
+                "Our hours are 8 AM - 8 PM, Monday to Friday."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where are you located?",
+                "What's your address?",
+                "How do I get to your store?",
+                "Where can I find you?"
+            ],
+            "responses": [
+                "We are located at 123 Coffee St., Espresso City.",
+                "Our address is 123 Coffee St., Espresso City.",
+                "You can find us at 123 Coffee St., Espresso City."
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "What's the status of my order?",
+                "How can I track my order?",
+                "Is my order on its way?"
+            ],
+            "responses": [
+                "You can track your order using the link we sent to your email.",
+                "Please check your email for the order tracking link.",
+                "Your order is on its way! Check your email for the tracking link."
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "How much is a coffee?",
+                "What are your prices?",
+                "How much does it cost?",
+                "What's the price of a latte?"
+            ],
+            "responses": [
+                "Our coffee prices range from $2 to $5 depending on the size and type.",
+                "A latte costs $4.50.",
+                "Our pricing starts at $2 for a basic coffee."
+            ]
+        },
+        {
+            "tag": "small_talk",
+            "patterns": [
+                "How's the weather?",
+                "What's new?",
+                "Tell me something interesting",
+                "What's going on?",
+                "What's up?"
+            ],
+            "responses": [
+                "I'm just a bot, but I hear it's a nice day!",
+                "Not much, just here to help you out!",
+                "Did you know coffee is the second most traded commodity in the world?",
+                "I'm here, ready to assist you!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "Who are you?",
+                "Tell me your name",
+                "May I know your name?"
+            ],
+            "responses": [
+                "I'm your friendly neighborhood Predictors bot!",
+                "You can call me Predictors Bot.",
+                "I'm here to help you, whatever name you prefer!"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies",
+                "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "adverse_drug",
+            "patterns": [
+                "How to check Adverse drug reaction?",
+                "Open adverse drugs module",
+                "Give me a list of drugs causing adverse behavior",
+                "List all drugs suitable for patient with adverse reaction",
+                "Which drugs dont have adverse reaction?"
+            ],
+            "responses": [
+                "Navigating to Adverse drug reaction module"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "blood_pressure",
+            "patterns": [
+                "Open blood pressure module",
+                "Task related to blood pressure",
+                "Blood pressure data entry",
+                "I want to log blood pressure results",
+                "Blood pressure data management"
+            ],
+            "responses": [
+                "Navigating to Blood Pressure module"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "blood_pressure_search",
+            "patterns": [
+                "I want to search for blood pressure result history",
+                "Blood pressure for patient",
+                "Load patient blood pressure result",
+                "Show blood pressure results for patient",
+                "Find blood pressure results by ID"
+            ],
+            "responses": [
+                "Please provide Patient ID",
+                "Patient ID?"
+            ],
+            "context": [
+                "search_blood_pressure_by_patient_id"
+            ]
+        },
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google... "
+            ]
+        },
+        {
+            "tag": "Animal",
+            "patterns": [
+                "Dog"
+            ],
+            "responses": [
+                "A dog is a loyal, domesticated mammal, known for its companionship, varied breeds, intelligence, and roles in human life."
+            ]
+        },
+        {
+            "tag": "Animal",
+            "patterns": [
+                "Cat"
+            ],
+            "responses": [
+                "A cat is a graceful, independent mammal, known for its agility, playful nature, and role as a beloved companion."
+            ]
+        },
+        {
+            "tag": "Container",
+            "patterns": [
+                "Bottle"
+            ],
+            "responses": [
+                "A bottle is a container with a neck and cap, used to store liquids like water, beverages, or chemicals."
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Sofa"
+            ],
+            "responses": [
+                "A sofa is a comfortable, upholstered seating furniture for multiple people, often featuring cushions and arms, used in living rooms."
+            ]
+        },
+        {
+            "tag": "Fruits",
+            "patterns": [
+                "Apple"
+            ],
+            "responses": [
+                "An apple is a round, edible fruit with a crisp texture, sweet or tart flavor, and often red, green, or yellow."
+            ]
+        },
+        {
+            "tag": "Fruits",
+            "patterns": [
+                "Guava"
+            ],
+            "responses": [
+                "Guava is a tropical fruit with green or yellow skin, pink or white flesh, and a sweet, tangy flavor."
+            ]
+        },
+        {
+            "tag": "Fruits",
+            "patterns": [
+                "Banana"
+            ],
+            "responses": [
+                "A banana is a long, curved fruit with yellow skin, soft sweet flesh, and a rich source of potassium."
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                "Beach"
+            ],
+            "responses": [
+                "A beach is a sandy or pebbly shore by the sea, ideal for sunbathing, swimming, and relaxation."
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                "Mountains"
+            ],
+            "responses": [
+                "A mountain is a large, elevated landform with steep slopes, often covered in snow or vegetation, ideal for hiking."
+            ]
+        },
+        {
+            "tag": "Desert",
+            "patterns": [
+                "Desert"
+            ],
+            "responses": [
+                "A desert is a dry, arid region with minimal rainfall, characterized by sandy or rocky landscapes, and extreme temperatures."
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                "School"
+            ],
+            "responses": [
+                "A school is an institution for education, where students learn various subjects, develop skills, and engage in social activities."
+            ]
+        },
+        {
+            "tag": "Places",
+            "patterns": [
+                "College"
+            ],
+            "responses": [
+                "A college is an institution of higher education, offering undergraduate and graduate programs, and providing students"
+            ]
+        },
+        {
+            "tag": "People",
+            "patterns": [
+                " Soldiers "
+            ],
+            "responses": [
+                " Soldiers are trained military personnel who defend their country, follow orders, and perform various duties in combat and peacekeeping roles."
+            ]
+        },
+        {
+            "tag": "search_blood_pressure_by_patient_id",
+            "patterns": [],
+            "responses": [
+                "Loading Blood pressure result for Patient"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pharmacy_search",
+            "patterns": [
+                "Find me a pharmacy",
+                "Find pharmacy",
+                "List of pharmacies nearby",
+                "Locate pharmacy",
+                "Search pharmacy"
+            ],
+            "responses": [
+                "Please provide pharmacy name"
+            ],
+            "context": [
+                "search_pharmacy_by_name"
+            ]
+        },
+        {
+            "tag": "search_pharmacy_by_name",
+            "patterns": [],
+            "responses": [
+                "Loading pharmacy details"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_search",
+            "patterns": [
+                "Lookup for hospital",
+                "Searching for hospital to transfer patient",
+                "I want to search hospital data",
+                "Hospital lookup for patient",
+                "Looking up hospital details"
+            ],
+            "responses": [
+                "Please provide hospital name or location"
+            ],
+            "context": [
+                "search_hospital_by_params"
+            ]
+        },
+        {
+            "tag": "search_hospital_by_params",
+            "patterns": [],
+            "responses": [
+                "Please provide hospital type"
+            ],
+            "context": [
+                "search_hospital_by_type"
+            ]
+        },
+        {
+            "tag": "search_hospital_by_type",
+            "patterns": [],
+            "responses": [
+                "Loading hospital details"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cat",
+            "patterns": [
+                "what is the colour of cat"
+            ],
+            "responses": [
+                "brownish,with white patches",
+                "The capital of France is Paris.",
+                "The capital of France is Paris.",
+                "The capital of France is Paris."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": " describe cat",
+            "patterns": [
+                "describe this cat"
+            ],
+            "responses": [
+                "here in this image a cat looking straight,with white background,looks like it a tabby(species of the cat) "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "describe dog",
+            "patterns": [
+                "describe this dog"
+            ],
+            "responses": [
+                "here in this image a dog looking straight,with white background,looks like it a labrador(species of the cat) "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "feeling",
+            "patterns": [
+                "how are you "
+            ],
+            "responses": [
+                "I'm an AI assistant developed by Predictors , designed to assist with various tasks such as analysis, question answering, math, coding, and more. I process and respond to user queries using a combination of natural language processing and machine learning algorithms to provide accurate and helpful information."
+            ]
+        },
+        {
+            "tag": "feelings",
+            "patterns": [
+                "how are you feeling today "
+            ],
+            "responses": [
+                "I'm functioning properly and ready to assist with any tasks or questions you may have, as I'm a machine, I don't have emotions or feelings like humans do. I'm here to provide information and help with your queries to the best of my abilities."
+            ]
+        },
+        {
+            "tag": "places",
+            "patterns": [
+                "best place to visit in monsoon"
+            ],
+            "responses": [
+                "The best places to visit during monsoon are typically hill stations or destinations with lush green landscapes, such as Munnar in Kerala, India, or Kodaikanal in Tamil Nadu, India. These places offer breathtaking views, cool climate, and a serene atmosphere, making them ideal for a relaxing getaway during the monsoon season."
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "best notebook to write"
+            ],
+            "responses": [
+                "The best notebook for writing is often a matter of personal preference, but popular options include the Moleskine, Leuchtturm1917, and Rhodia Webnotebook, known for their high-quality paper and durable binding. These notebooks offer a smooth writing experience and are ideal for journaling, note-taking, or creative writing."
+            ]
+        },
+        {
+            "tag": "medicines",
+            "patterns": [
+                "pill bottle"
+            ],
+            "responses": [
+                "A pill bottle, also known as a pill box or medication bottle, is a container used to store and dispense pills, tablets, or capsules. It typically has a screw-top lid and is made of plastic or glass, designed to keep medications organized, secure, and protected from moisture and light"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "best chinease food in india"
+            ],
+            "responses": [
+                "The best Chinese food in India is often a fusion of Indian and Chinese flavors, with popular dishes like Manchurian, Hakka Noodles, and Drums of Heaven being nostalgic favorites among Indians. These dishes are often characterized by their use of Indian spices, vegetables, and sauces, combined with Chinese cooking techniques and ingredients"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "best food in india"
+            ],
+            "responses": [
+                "The best food in India is often subjective, but popular dishes like Biryani, Tandoori Chicken, and Butter Chicken are widely loved for their rich flavors and aromas. These iconic dishes showcase the diversity of Indian cuisine, with influences from various regions and cultures, and are often made with a blend of spices, herbs, and other local ingredients."
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "best food in pakistan"
+            ],
+            "responses": [
+                "The best food in Pakistan is often characterized by its rich flavors and aromas, with popular dishes like Biryani, Karahi, and Chapli Kebab being widely loved. These iconic dishes showcase the diversity of Pakistani cuisine, with influences from various regions and cultures, and are often made with a blend of spices, herbs, and other local ingredients "
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "best food in singapore. "
+            ],
+            "responses": [
+                "The best food in Singapore is a blend of Chinese, Malay, and Indian cuisines, with popular dishes like Chicken Rice, Nasi Lemak, and Laksa being widely loved for their rich flavors and aromas. These iconic dishes showcase the diversity of Singaporean cuisine, with influences from various cultures and regions, and are often made with a blend of spices, herbs, and other local ingredients"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "best food in paris"
+            ],
+            "responses": [
+                "The best food to eat in Paris includes iconic dishes like croissants, steak frites, and escargot, which showcase the city's rich culinary heritage and blend of French, European, and international flavors. These popular dishes can be found in many Parisian cafes, bistros, and restaurants, and are often made with fresh, high-quality ingredients and traditional cooking techniques"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "  best food in japan"
+            ],
+            "responses": [
+                "The best food in Japan includes iconic dishes like sushi, ramen, and tempura, which showcase the country's rich culinary heritage and blend of traditional and modern flavors. These popular dishes can be found in many Japanese restaurants and are often made with fresh, high-quality ingredients and traditional cooking techniques"
+            ]
+        },
+        {
+            "tag": "med",
+            "patterns": [
+                "describe paracetamol"
+            ],
+            "responses": [
+                "Paracetamol is a medicine used to treat mild to moderate pain. Paracetamol can also be used to treat fever (high temperature). It's dangerous to take more than the recommended dose of paracetamol. Paracetamol overdose can damage your liver and cause death. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "banana",
+            "patterns": [
+                "describe Banana",
+                "Banana"
+            ],
+            "responses": [
+                "A banana is a sweet, elongated fruit with soft, creamy flesh encased in a yellow peel when ripe. It's a rich source of potassium, fiber, and essential vitamins, commonly enjoyed fresh or in smoothies and desserts."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "apple",
+            "patterns": [
+                "describe Apple",
+                "What is an apple?",
+                "Apple"
+            ],
+            "responses": [
+                "An apple is a round, juicy fruit with a crisp texture, typically red, green, or yellow in color. It's known for its sweetness or tartness, depending on the variety, and is a great source of dietary fiber and vitamin C."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "orange",
+            "patterns": [
+                "describe Orange",
+                "What is an orange?",
+                "Orange"
+            ],
+            "responses": [
+                "An orange is a citrus fruit with a tough, orange-colored skin and juicy, sweet-tart flesh inside. It's a rich source of vitamin C and is often consumed fresh or as juice."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "grape",
+            "patterns": [
+                "describe Grape",
+                "What are grapes?",
+                "Grape"
+            ],
+            "responses": [
+                "Grapes are small, round fruits that grow in clusters, typically either green, red, or purple in color. They're known for their sweet flavor and are used to make wine, juice, or eaten fresh as a snack."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "watermelon",
+            "patterns": [
+                "describe Watermelon",
+                "What is a watermelon?",
+                "Watermelon"
+            ],
+            "responses": [
+                "Watermelon is a large, round fruit with thick green rind and juicy, sweet red or pink flesh inside. It's a refreshing summer fruit and contains high water content, making it perfect for hydration."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pineapple",
+            "patterns": [
+                "describe Pineapple",
+                "What is a pineapple?",
+                "Pineapple"
+            ],
+            "responses": [
+                "Pineapple is a tropical fruit with spiky, tough skin and sweet, tangy yellow flesh inside. It's rich in vitamin C and bromelain, an enzyme that aids digestion, and is often used in juices or desserts."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "strawberry",
+            "patterns": [
+                "describe Strawberry",
+                "What is a strawberry?",
+                "Strawberry"
+            ],
+            "responses": [
+                "Strawberries are small, bright red fruits with a juicy, sweet flavor and tiny seeds on their outer surface. They're packed with antioxidants and vitamin C, often eaten fresh or used in desserts and jams."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mango",
+            "patterns": [
+                "describe Mango",
+                "What is a mango?",
+                "Mango"
+            ],
+            "responses": [
+                "Mango is a tropical stone fruit with smooth, sweet, and juicy orange flesh. It's rich in vitamins A and C and often enjoyed fresh or in smoothies, salads, or desserts."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kiwi",
+            "patterns": [
+                "describe Kiwi",
+                "What is a kiwi?",
+                "Kiwi"
+            ],
+            "responses": [
+                "Kiwi is a small, oval fruit with brown, fuzzy skin and bright green, tangy-sweet flesh. It's packed with vitamin C and is often enjoyed fresh, in fruit salads, or as a garnish."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "blueberry",
+            "patterns": [
+                "describe Blueberry",
+                "What is a blueberry?",
+                "Blueberry"
+            ],
+            "responses": [
+                "Blueberries are small, round, dark blue or purple berries that have a sweet and slightly tart flavor. They're rich in antioxidants and vitamins, often used in desserts, smoothies, or eaten fresh."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pear",
+            "patterns": [
+                "describe Pear",
+                "What is a pear?",
+                "Pear"
+            ],
+            "responses": [
+                "A pear is a bell-shaped fruit with soft, juicy flesh and a smooth skin, typically green, yellow, or red. It's sweet and refreshing, and it's a great source of dietary fiber and vitamin C."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "peach",
+            "patterns": [
+                "describe Peach",
+                "What is a peach?",
+                "Peach"
+            ],
+            "responses": [
+                "A peach is a round fruit with fuzzy skin and soft, juicy flesh that's usually orange or yellow. It's sweet, fragrant, and rich in vitamins A and C, often enjoyed fresh or in desserts."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "aspirin",
+            "patterns": [
+                "describe Aspirin",
+                "What is aspirin?",
+                "Aspirin"
+            ],
+            "responses": [
+                "Aspirin is a common pain reliever and anti-inflammatory drug used to treat headaches, reduce fever, and relieve mild pain. It's also used in low doses to reduce the risk of heart attacks and strokes."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "paracetamol",
+            "patterns": [
+                "describe Paracetamol",
+                "What is paracetamol?",
+                "Paracetamol"
+            ],
+            "responses": [
+                "Paracetamol, also known as acetaminophen, is a widely used medication for relieving pain and reducing fever. It's commonly taken for headaches, muscle aches, and fevers, and is generally considered safe when used correctly."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ibuprofen",
+            "patterns": [
+                "describe Ibuprofen",
+                "What is ibuprofen?",
+                "Ibuprofen"
+            ],
+            "responses": [
+                "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce inflammation, and lower fever. It's often used for conditions like arthritis, menstrual cramps, and muscle aches."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "amoxicillin",
+            "patterns": [
+                "describe Amoxicillin",
+                "What is amoxicillin?",
+                "Amoxicillin"
+            ],
+            "responses": [
+                "Amoxicillin is an antibiotic used to treat a wide variety of bacterial infections. It's commonly prescribed for respiratory infections, ear infections, and urinary tract infections."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "metformin",
+            "patterns": [
+                "describe Metformin",
+                "What is metformin?",
+                "Metformin"
+            ],
+            "responses": [
+                "Metformin is a medication used to treat type 2 diabetes by controlling blood sugar levels. It's often prescribed as the first-line treatment for people with type 2 diabetes to improve the body's response to insulin."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "atorvastatin",
+            "patterns": [
+                "describe Atorvastatin",
+                "What is atorvastatin?",
+                "Atorvastatin"
+            ],
+            "responses": [
+                "Atorvastatin is a statin medication used to lower cholesterol levels and reduce the risk of heart disease. It works by reducing the amount of bad cholesterol (LDL) in the blood."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "omeprazole",
+            "patterns": [
+                "describe Omeprazole",
+                "What is omeprazole?",
+                "Omeprazole"
+            ],
+            "responses": [
+                "Omeprazole is a proton pump inhibitor (PPI) used to reduce stomach acid and treat conditions like acid reflux, GERD, and stomach ulcers. It helps prevent damage to the esophagus and stomach lining."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lisinopril",
+            "patterns": [
+                "describe Lisinopril",
+                "What is lisinopril?",
+                "Lisinopril"
+            ],
+            "responses": [
+                "Lisinopril is an ACE inhibitor used to treat high blood pressure and heart failure. It works by relaxing blood vessels, making it easier for the heart to pump blood, and reducing the risk of heart attack and stroke."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "alprazolam",
+            "patterns": [
+                "describe Alprazolam",
+                "What is alprazolam?",
+                "Alprazolam"
+            ],
+            "responses": [
+                "Alprazolam, commonly known by the brand name Xanax, is a medication used to treat anxiety and panic disorders. It belongs to the benzodiazepine class of drugs, which act on the brain to calm nervous system activity."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "levothyroxine",
+            "patterns": [
+                "describe Levothyroxine",
+                "What is levothyroxine?",
+                "Levothyroxine"
+            ],
+            "responses": [
+                "Levothyroxine is a medication used to treat hypothyroidism, a condition where the thyroid gland doesn't produce enough thyroid hormone. It helps restore normal hormone levels, improving energy and metabolism."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "clonazepam",
+            "patterns": [
+                "describe Clonazepam",
+                "What is clonazepam?",
+                "Clonazepam"
+            ],
+            "responses": [
+                "Clonazepam is a medication used to treat seizure disorders and panic attacks. It belongs to the benzodiazepine class and works by calming the brain and nerves to reduce anxiety and seizures."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "metoprolol",
+            "patterns": [
+                "describe Metoprolol",
+                "What is metoprolol?",
+                "Metoprolol"
+            ],
+            "responses": [
+                "Metoprolol is a beta-blocker used to treat high blood pressure, chest pain (angina), and heart failure. It works by slowing the heart rate and relaxing blood vessels to improve blood flow and reduce blood pressure."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "diazepam",
+            "patterns": [
+                "describe Diazepam",
+                "What is diazepam?",
+                "Diazepam"
+            ],
+            "responses": [
+                "Diazepam, also known as Valium, is a medication used to treat anxiety, muscle spasms, and seizures. It belongs to the benzodiazepine family and acts as a sedative to calm the brain and nerves."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sertraline",
+            "patterns": [
+                "describe Sertraline",
+                "What is sertraline?",
+                "Sertraline"
+            ],
+            "responses": [
+                "Sertraline is an antidepressant of the selective serotonin reuptake inhibitor (SSRI) class used to treat depression, anxiety disorders, and OCD. It helps improve mood by increasing serotonin levels in the brain."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "zolpidem",
+            "patterns": [
+                "describe Zolpidem",
+                "What is zolpidem?",
+                "Zolpidem"
+            ],
+            "responses": [
+                "Zolpidem, commonly known as Ambien, is a medication used to treat insomnia. It helps induce sleep by acting on certain chemicals in the brain to promote relaxation and improve sleep patterns."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_delhi",
+            "patterns": [
+                "Where is the hospital in Delhi?",
+                "Hospital location in Delhi",
+                "Delhi hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Delhi is All India Institute of Medical Sciences (AIIMS), located at Ansari Nagar, New Delhi, Delhi 110029. AIIMS is a renowned multi-specialty hospital and research institution known for its advanced medical care and research."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_mumbai",
+            "patterns": [
+                "Where is the hospital in Mumbai?",
+                "Hospital location in Mumbai",
+                "Mumbai hospital address"
+            ],
+            "responses": [
+                "A well-known hospital in Mumbai is Sir H. N. Reliance Foundation Hospital, located at D. N. Road, Near NCPA, Nariman Point, Mumbai, Maharashtra 400021. It offers comprehensive services in various specialties including cardiology, neurology, and orthopedics."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_bangalore",
+            "patterns": [
+                "Where is the hospital in Bangalore?",
+                "Hospital location in Bangalore",
+                "Bangalore hospital address"
+            ],
+            "responses": [
+                "One major hospital in Bangalore is Manipal Hospital, located at 98, 100 Feet Road, Intermediate Ring Road, Bangalore, Karnataka 560038. Manipal Hospital is known for its state-of-the-art facilities and specialties in cardiology, oncology, and neurology."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_chennai",
+            "patterns": [
+                "Where is the hospital in Chennai?",
+                "Hospital location in Chennai",
+                "Chennai hospital address"
+            ],
+            "responses": [
+                "A key hospital in Chennai is Apollo Hospitals, located at 21, Greams Lane, Off Greams Road, Chennai, Tamil Nadu 600006. Apollo Hospitals is a leading healthcare provider with expertise in areas such as cardiology, orthopedics, and gastroenterology."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_hyderabad",
+            "patterns": [
+                "Where is the hospital in Hyderabad?",
+                "Hospital location in Hyderabad",
+                "Hyderabad hospital address"
+            ],
+            "responses": [
+                "One of the leading hospitals in Hyderabad is Apollo Hospitals, located at 21, Jubileehills, Hyderabad, Telangana 500033. Apollo Hospitals offers advanced medical care in specialties such as nephrology, cardiology, and cancer treatment."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_pune",
+            "patterns": [
+                "Where is the hospital in Pune?",
+                "Hospital location in Pune",
+                "Pune hospital address"
+            ],
+            "responses": [
+                "A prominent hospital in Pune is Ruby Hall Clinic, located at 40, Sassoon Road, Pune, Maharashtra 411001. Ruby Hall Clinic is well-regarded for its comprehensive services in cardiology, orthopedic surgery, and oncology."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_ahmedabad",
+            "patterns": [
+                "Where is the hospital in Ahmedabad?",
+                "Hospital location in Ahmedabad",
+                "Ahmedabad hospital address"
+            ],
+            "responses": [
+                "One of the major hospitals in Ahmedabad is Sterling Hospitals, located at 53, Sterling City, Nr. Shyamal Cross Road, Ahmedabad, Gujarat 380015. Sterling Hospitals provides a wide range of services including cardiology, nephrology, and emergency care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_kolkata",
+            "patterns": [
+                "Where is the hospital in Kolkata?",
+                "Hospital location in Kolkata",
+                "Kolkata hospital address"
+            ],
+            "responses": [
+                "A leading hospital in Kolkata is Apollo Gleneagles Hospitals, located at 58, Canal Circular Road, Kolkata, West Bengal 700054. Apollo Gleneagles is known for its expertise in areas such as cardiology, orthopedics, and gastroenterology."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_chandigarh",
+            "patterns": [
+                "Where is the hospital in Chandigarh?",
+                "Hospital location in Chandigarh",
+                "Chandigarh hospital address"
+            ],
+            "responses": [
+                "One notable hospital in Chandigarh is Post Graduate Institute of Medical Education and Research (PGIMER), located at Sector 12, Chandigarh 160012. PGIMER is a leading institution providing advanced medical care and research across various specialties."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_indore",
+            "patterns": [
+                "Where is the hospital in Indore?",
+                "Hospital location in Indore",
+                "Indore hospital address"
+            ],
+            "responses": [
+                "A major hospital in Indore is Choithram Hospital, located at 1, Janjeerwala Square, Indore, Madhya Pradesh 452001. Choithram Hospital offers comprehensive healthcare services including cardiology, orthopedics, and general medicine."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_bhopal",
+            "patterns": [
+                "Where is the hospital in Bhopal?",
+                "Hospital location in Bhopal",
+                "Bhopal hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Bhopal is People's Hospital, located at 6, Aashima Mall, Hoshangabad Road, Bhopal, Madhya Pradesh 462026. People's Hospital is known for its services in specialties such as cardiology, nephrology, and trauma care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_lucknow",
+            "patterns": [
+                "Where is the hospital in Lucknow?",
+                "Hospital location in Lucknow",
+                "Lucknow hospital address"
+            ],
+            "responses": [
+                "A major hospital in Lucknow is King George's Medical University (KGMU), located at Shahmina, Lucknow, Uttar Pradesh 226003. KGMU is a prominent medical institution known for its research and treatment in various medical fields."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_varanasi",
+            "patterns": [
+                "Where is the hospital in Varanasi?",
+                "Hospital location in Varanasi",
+                "Varanasi hospital address"
+            ],
+            "responses": [
+                "One of the key hospitals in Varanasi is Banaras Hindu University (BHU) Hospital, located at BHU Campus, Varanasi, Uttar Pradesh 221005. BHU Hospital is known for its extensive healthcare services and research."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_surat",
+            "patterns": [
+                "Where is the hospital in Surat?",
+                "Hospital location in Surat",
+                "Surat hospital address"
+            ],
+            "responses": [
+                "A prominent hospital in Surat is New Civil Hospital, located at Surat, Gujarat 395001. New Civil Hospital provides comprehensive medical services, including emergency care and specialty treatments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_nashik",
+            "patterns": [
+                "Where is the hospital in Nashik?",
+                "Hospital location in Nashik",
+                "Nashik hospital address"
+            ],
+            "responses": [
+                "One major hospital in Nashik is Sahyadri Hospitals, located at Nashik, Maharashtra 422001. Sahyadri Hospitals offer a range of medical services including diagnostics, surgery, and specialized treatments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_jodhpur",
+            "patterns": [
+                "Where is the hospital in Jodhpur?",
+                "Hospital location in Jodhpur",
+                "Jodhpur hospital address"
+            ],
+            "responses": [
+                "A key hospital in Jodhpur is AIIMS Jodhpur, located at Basni, Jodhpur, Rajasthan 342005. AIIMS Jodhpur is a major medical institution known for its advanced healthcare services and research."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_bhubaneswar",
+            "patterns": [
+                "Where is the hospital in Bhubaneswar?",
+                "Hospital location in Bhubaneswar",
+                "Bhubaneswar hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Bhubaneswar is All India Institute of Medical Sciences (AIIMS) Bhubaneswar, located at Sijua, Bhubaneswar, Odisha 751019. AIIMS Bhubaneswar provides specialized medical care and research."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_mangalore",
+            "patterns": [
+                "Where is the hospital in Mangalore?",
+                "Hospital location in Mangalore",
+                "Mangalore hospital address"
+            ],
+            "responses": [
+                "A major hospital in Mangalore is KMC Hospital, located at Attavar, Mangalore, Karnataka 575002. KMC Hospital is known for its extensive range of medical services including cardiology and orthopedics."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_jaipur",
+            "patterns": [
+                "Where is the hospital in Jaipur?",
+                "Hospital location in Jaipur",
+                "Jaipur hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Jaipur is SMS Medical College and Hospital, located at Jawahar Lal Nehru Marg, Jaipur, Rajasthan 302004. SMS Medical College is known for its specialized medical services and research facilities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_kanpur",
+            "patterns": [
+                "Where is the hospital in Kanpur?",
+                "Hospital location in Kanpur",
+                "Kanpur hospital address"
+            ],
+            "responses": [
+                "A major hospital in Kanpur is GSVM Medical College, located at 15/1, Kalyanpur, Kanpur, Uttar Pradesh 208002. GSVM Medical College provides advanced healthcare services across various specialties."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_agra",
+            "patterns": [
+                "Where is the hospital in Agra?",
+                "Hospital location in Agra",
+                "Agra hospital address"
+            ],
+            "responses": [
+                "One notable hospital in Agra is Safdarjung Hospital, located at Agra, Uttar Pradesh 282002. Safdarjung Hospital offers a range of healthcare services including emergency and specialty care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_trichy",
+            "patterns": [
+                "Where is the hospital in Trichy?",
+                "Hospital location in Trichy",
+                "Trichy hospital address"
+            ],
+            "responses": [
+                "A key hospital in Trichy is Sri Ramachandra Medical College and Research Institute, located at Trichy, Tamil Nadu 620017. It is known for its comprehensive medical services and research activities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_tirupur",
+            "patterns": [
+                "Where is the hospital in Tirupur?",
+                "Hospital location in Tirupur",
+                "Tirupur hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Tirupur is KMC Hospital, located at Tirupur, Tamil Nadu 641602. KMC Hospital provides a variety of healthcare services including general medicine and surgery."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_coimbatore",
+            "patterns": [
+                "Where is the hospital in Coimbatore?",
+                "Hospital location in Coimbatore",
+                "Coimbatore hospital address"
+            ],
+            "responses": [
+                "A major hospital in Coimbatore is PSG Hospitals, located at PSG Tech Campus, Peelamedu, Coimbatore, Tamil Nadu 641004. PSG Hospitals is known for its advanced medical care in various specialties."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_salem",
+            "patterns": [
+                "Where is the hospital in Salem?",
+                "Hospital location in Salem",
+                "Salem hospital address"
+            ],
+            "responses": [
+                "One key hospital in Salem is Sakthi Hospital, located at Salem, Tamil Nadu 636001. Sakthi Hospital offers a range of medical services including general care and specialty treatments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_pondicherry",
+            "patterns": [
+                "Where is the hospital in Pondicherry?",
+                "Hospital location in Pondicherry",
+                "Pondicherry hospital address"
+            ],
+            "responses": [
+                "A notable hospital in Pondicherry is JIPMER, located at Dhanvantari Nagar, Pondicherry 605006. JIPMER provides specialized medical services and is known for its research and educational facilities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_vizag",
+            "patterns": [
+                "Where is the hospital in Visakhapatnam?",
+                "Hospital location in Visakhapatnam",
+                "Visakhapatnam hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Visakhapatnam is King George Hospital, located at Maharanipeta, Visakhapatnam, Andhra Pradesh 530002. King George Hospital is known for its extensive healthcare services and specialties."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_rajkot",
+            "patterns": [
+                "Where is the hospital in Rajkot?",
+                "Hospital location in Rajkot",
+                "Rajkot hospital address"
+            ],
+            "responses": [
+                "A major hospital in Rajkot is Shreeji Hospital, located at Rajkot, Gujarat 360001. Shreeji Hospital provides comprehensive medical services including emergency care and specialty treatments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_jabalpur",
+            "patterns": [
+                "Where is the hospital in Jabalpur?",
+                "Hospital location in Jabalpur",
+                "Jabalpur hospital address"
+            ],
+            "responses": [
+                "One key hospital in Jabalpur is Netaji Subhash Chandra Bose Medical College, located at Jabalpur, Madhya Pradesh 482003. This hospital provides a wide range of medical services and is known for its research and educational activities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_durgapur",
+            "patterns": [
+                "Where is the hospital in Durgapur?",
+                "Hospital location in Durgapur",
+                "Durgapur hospital address"
+            ],
+            "responses": [
+                "A notable hospital in Durgapur is Durgapur Steel Plant Hospital, located at Durgapur, West Bengal 713205. The hospital provides specialized healthcare services to industrial workers and the general public."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_kanchipuram",
+            "patterns": [
+                "Where is the hospital in Kanchipuram?",
+                "Hospital location in Kanchipuram",
+                "Kanchipuram hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Kanchipuram is Government District Headquarters Hospital, located at Kanchipuram, Tamil Nadu 631501. The hospital provides general medical services and emergency care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_kolkata",
+            "patterns": [
+                "Where is the hospital in Kolkata?",
+                "Hospital location in Kolkata",
+                "Kolkata hospital address"
+            ],
+            "responses": [
+                "A leading hospital in Kolkata is Apollo Gleneagles Hospitals, located at 58, Canal Circular Road, Kolkata, West Bengal 700054. Apollo Gleneagles is known for its expertise in areas such as cardiology, orthopedics, and gastroenterology."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_siliguri",
+            "patterns": [
+                "Where is the hospital in Siliguri?",
+                "Hospital location in Siliguri",
+                "Siliguri hospital address"
+            ],
+            "responses": [
+                "One major hospital in Siliguri is North Bengal Medical College and Hospital, located at Siliguri, West Bengal 734012. The hospital provides a range of healthcare services including general medicine and surgery."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_haldia",
+            "patterns": [
+                "Where is the hospital in Haldia?",
+                "Hospital location in Haldia",
+                "Haldia hospital address"
+            ],
+            "responses": [
+                "A key hospital in Haldia is Haldia Health District Hospital, located at Haldia, West Bengal 721631. The hospital offers a variety of medical services and emergency care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_shimla",
+            "patterns": [
+                "Where is the hospital in Shimla?",
+                "Hospital location in Shimla",
+                "Shimla hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Shimla is Indira Gandhi Medical College, located at Shimla, Himachal Pradesh 171001. The hospital provides comprehensive medical services and is known for its research and educational facilities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_dehradun",
+            "patterns": [
+                "Where is the hospital in Dehradun?",
+                "Hospital location in Dehradun",
+                "Dehradun hospital address"
+            ],
+            "responses": [
+                "A major hospital in Dehradun is Max Super Specialty Hospital, located at Dehradun, Uttarakhand 248001. The hospital offers advanced medical services in specialties like cardiology, oncology, and orthopedics."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_gorakhpur",
+            "patterns": [
+                "Where is the hospital in Gorakhpur?",
+                "Hospital location in Gorakhpur",
+                "Gorakhpur hospital address"
+            ],
+            "responses": [
+                "One key hospital in Gorakhpur is Baba Raghav Das Medical College, located at Gorakhpur, Uttar Pradesh 273013. The hospital provides general medical services and specialty care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_raipur",
+            "patterns": [
+                "Where is the hospital in Raipur?",
+                "Hospital location in Raipur",
+                "Raipur hospital address"
+            ],
+            "responses": [
+                "A prominent hospital in Raipur is AIIMS Raipur, located at Tatibandh, Raipur, Chhattisgarh 492099. AIIMS Raipur offers specialized medical services and is known for its research and education."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_bhopal",
+            "patterns": [
+                "Where is the hospital in Bhopal?",
+                "Hospital location in Bhopal",
+                "Bhopal hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Bhopal is People's Hospital, located at 6, Aashima Mall, Hoshangabad Road, Bhopal, Madhya Pradesh 462026. People's Hospital is known for its services in specialties such as cardiology, nephrology, and trauma care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_bhubaneswar",
+            "patterns": [
+                "Where is the hospital in Bhubaneswar?",
+                "Hospital location in Bhubaneswar",
+                "Bhubaneswar hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Bhubaneswar is All India Institute of Medical Sciences (AIIMS) Bhubaneswar, located at Sijua, Bhubaneswar, Odisha 751019. AIIMS Bhubaneswar provides specialized medical care and research."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_ranchi",
+            "patterns": [
+                "Where is the hospital in Ranchi?",
+                "Hospital location in Ranchi",
+                "Ranchi hospital address"
+            ],
+            "responses": [
+                "A major hospital in Ranchi is Rajendra Institute of Medical Sciences (RIMS), located at Ranchi, Jharkhand 834009. RIMS is known for its specialized medical care and research facilities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_asansol",
+            "patterns": [
+                "Where is the hospital in Asansol?",
+                "Hospital location in Asansol",
+                "Asansol hospital address"
+            ],
+            "responses": [
+                "One key hospital in Asansol is Asansol District Hospital, located at Asansol, West Bengal 713301. The hospital provides comprehensive medical services including emergency care and specialty treatments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_siliguri",
+            "patterns": [
+                "Where is the hospital in Siliguri?",
+                "Hospital location in Siliguri",
+                "Siliguri hospital address"
+            ],
+            "responses": [
+                "One major hospital in Siliguri is North Bengal Medical College and Hospital, located at Siliguri, West Bengal 734012. The hospital provides a range of healthcare services including general medicine and surgery."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_ambala",
+            "patterns": [
+                "Where is the hospital in Ambala?",
+                "Hospital location in Ambala",
+                "Ambala hospital address"
+            ],
+            "responses": [
+                "A prominent hospital in Ambala is Civil Hospital, located at Ambala, Haryana 134003. Civil Hospital provides various medical services including emergency and specialty care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_aurangabad",
+            "patterns": [
+                "Where is the hospital in Aurangabad?",
+                "Hospital location in Aurangabad",
+                "Aurangabad hospital address"
+            ],
+            "responses": [
+                "One notable hospital in Aurangabad is Government Medical College and Hospital, located at Aurangabad, Maharashtra 431001. The hospital offers a wide range of medical services including diagnostics and treatment."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_cuttack",
+            "patterns": [
+                "Where is the hospital in Cuttack?",
+                "Hospital location in Cuttack",
+                "Cuttack hospital address"
+            ],
+            "responses": [
+                "A key hospital in Cuttack is SCB Medical College and Hospital, located at Cuttack, Odisha 753007. SCB Medical College is known for its advanced medical services and research facilities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_jabalpur",
+            "patterns": [
+                "Where is the hospital in Jabalpur?",
+                "Hospital location in Jabalpur",
+                "Jabalpur hospital address"
+            ],
+            "responses": [
+                "One key hospital in Jabalpur is Netaji Subhash Chandra Bose Medical College, located at Jabalpur, Madhya Pradesh 482003. This hospital provides a wide range of medical services and is known for its research and educational activities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_jhansi",
+            "patterns": [
+                "Where is the hospital in Jhansi?",
+                "Hospital location in Jhansi",
+                "Jhansi hospital address"
+            ],
+            "responses": [
+                "A prominent hospital in Jhansi is Maharani Laxmi Bai Medical College, located at Jhansi, Uttar Pradesh 284128. The hospital provides a range of medical services and specialty treatments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_gwalior",
+            "patterns": [
+                "Where is the hospital in Gwalior?",
+                "Hospital location in Gwalior",
+                "Gwalior hospital address"
+            ],
+            "responses": [
+                "One key hospital in Gwalior is Gajra Raja Medical College, located at Gwalior, Madhya Pradesh 474009. The hospital is known for its medical research and comprehensive healthcare services."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_kolkata",
+            "patterns": [
+                "Where is the hospital in Kolkata?",
+                "Hospital location in Kolkata",
+                "Kolkata hospital address"
+            ],
+            "responses": [
+                "A leading hospital in Kolkata is Apollo Gleneagles Hospitals, located at 58, Canal Circular Road, Kolkata, West Bengal 700054. Apollo Gleneagles is known for its expertise in areas such as cardiology, orthopedics, and gastroenterology."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_bhubaneswar",
+            "patterns": [
+                "Where is the hospital in Bhubaneswar?",
+                "Hospital location in Bhubaneswar",
+                "Bhubaneswar hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Bhubaneswar is All India Institute of Medical Sciences (AIIMS) Bhubaneswar, located at Sijua, Bhubaneswar, Odisha 751019. AIIMS Bhubaneswar provides specialized medical care and research."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_kanpur",
+            "patterns": [
+                "Where is the hospital in Kanpur?",
+                "Hospital location in Kanpur",
+                "Kanpur hospital address"
+            ],
+            "responses": [
+                "A major hospital in Kanpur is GSVM Medical College, located at 15/1, Kalyanpur, Kanpur, Uttar Pradesh 208002. GSVM Medical College provides advanced healthcare services across various specialties."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_agra",
+            "patterns": [
+                "Where is the hospital in Agra?",
+                "Hospital location in Agra",
+                "Agra hospital address"
+            ],
+            "responses": [
+                "One notable hospital in Agra is Safdarjung Hospital, located at Agra, Uttar Pradesh 282002. Safdarjung Hospital offers a range of healthcare services including emergency and specialty care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_dehradun",
+            "patterns": [
+                "Where is the hospital in Dehradun?",
+                "Hospital location in Dehradun",
+                "Dehradun hospital address"
+            ],
+            "responses": [
+                "A major hospital in Dehradun is Max Super Specialty Hospital, located at Dehradun, Uttarakhand 248001. The hospital offers advanced medical services in specialties like cardiology, oncology, and orthopedics."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_haldia",
+            "patterns": [
+                "Where is the hospital in Haldia?",
+                "Hospital location in Haldia",
+                "Haldia hospital address"
+            ],
+            "responses": [
+                "One key hospital in Haldia is Haldia Health District Hospital, located at Haldia, West Bengal 721631. The hospital offers a variety of medical services and emergency care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_shimla",
+            "patterns": [
+                "Where is the hospital in Shimla?",
+                "Hospital location in Shimla",
+                "Shimla hospital address"
+            ],
+            "responses": [
+                "One prominent hospital in Shimla is Indira Gandhi Medical College, located at Shimla, Himachal Pradesh 171001. The hospital provides comprehensive medical services and is known for its research and educational facilities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_raipur",
+            "patterns": [
+                "Where is the hospital in Raipur?",
+                "Hospital location in Raipur",
+                "Raipur hospital address"
+            ],
+            "responses": [
+                "A prominent hospital in Raipur is AIIMS Raipur, located at Tatibandh, Raipur, Chhattisgarh 492099. AIIMS Raipur offers specialized medical services and is known for its research and education."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_ranchi",
+            "patterns": [
+                "Where is the hospital in Ranchi?",
+                "Hospital location in Ranchi",
+                "Ranchi hospital address"
+            ],
+            "responses": [
+                "A major hospital in Ranchi is Rajendra Institute of Medical Sciences (RIMS), located at Ranchi, Jharkhand 834009. RIMS is known for its specialized medical care and research facilities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_ambala",
+            "patterns": [
+                "Where is the hospital in Ambala?",
+                "Hospital location in Ambala",
+                "Ambala hospital address"
+            ],
+            "responses": [
+                "A prominent hospital in Ambala is Civil Hospital, located at Ambala, Haryana 134003. Civil Hospital provides various medical services including emergency and specialty care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_aurangabad",
+            "patterns": [
+                "Where is the hospital in Aurangabad?",
+                "Hospital location in Aurangabad",
+                "Aurangabad hospital address"
+            ],
+            "responses": [
+                "One notable hospital in Aurangabad is Government Medical College and Hospital, located at Aurangabad, Maharashtra 431001. The hospital offers a wide range of medical services including diagnostics and treatment."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_cuttack",
+            "patterns": [
+                "Where is the hospital in Cuttack?",
+                "Hospital location in Cuttack",
+                "Cuttack hospital address"
+            ],
+            "responses": [
+                "A key hospital in Cuttack is SCB Medical College and Hospital, located at Cuttack, Odisha 753007. SCB Medical College is known for its advanced medical services and research facilities."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_jhansi",
+            "patterns": [
+                "Where is the hospital in Jhansi?",
+                "Hospital location in Jhansi",
+                "Jhansi hospital address"
+            ],
+            "responses": [
+                "A prominent hospital in Jhansi is Maharani Laxmi Bai Medical College, located at Jhansi, Uttar Pradesh 284128. The hospital provides a range of medical services and specialty treatments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_location_gwalior",
+            "patterns": [
+                "Where is the hospital in Gwalior?",
+                "Hospital location in Gwalior",
+                "Gwalior hospital address"
+            ],
+            "responses": [
+                "One key hospital in Gwalior is Gajra Raja Medical College, located at Gwalior, Madhya Pradesh 474009. The hospital is known for its medical research and comprehensive healthcare services."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
